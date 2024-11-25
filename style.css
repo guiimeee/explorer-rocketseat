@@ -1,67 +1,115 @@
-body {
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  margin-top: 0;
+ body {
+  margin: 0;
+  font-family: "Open Sans", serif;
+
+  min-height: 100vh;
+ }
+
+.page {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 65px;
 }
 
-#hero {
-  width: 592px; 
-  /* Tag "width" largura da imagem */
-  margin: 0 auto 72px;
-  /* Tag "margin" margem da imagem */
+nav {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+
+  margin-bottom: 58px;
 }
 
-#hero img {
-  /* Tag "margin-bottom" margem inferior, embaixo. */
-  margin-bottom: 72px;
+ul {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+  margin: 0;
+  padding: 0;
+
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #1F1534;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 h1 {
-  font-family: "Inter", sans-serif;
   font-size: 49px;
+  width: 490px;
   line-height: 56px;
   font-weight: normal;
-
-  margin-bottom: 32px;
 }
-
-  /* Tag font-size tamanho da fonte */
-  /* Tag line-height altura da linha */
-  /* Tag font-weight peso da fonte */
+h1, ul {
+ font-family: "Mulish", serif;
+}
 
 h1 span {
+  color: #89C5CC;
+}
+
+p {
+  font-size: 15px;
+  line-height: 30px;
+  color: #7D7987;
+  width: 440px;
+
+  margin: 40px 0;
+}
+
+ul li a {
+  opacity: 0.5;
+}
+
+ul li a:hover {
   font-weight: bold;
+  opacity: 1
 }
 
-span, a {
-  color:#FF9900;
+button {
+  color: #F9F9F9;
+  text-transform: uppercase;
+  font-family: "Open Sans", serif;
+
+  background: #69B99D;
+  border: 0;
+  padding: 14px 32px 15px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  border-radius: 4px;
+
+  cursor: pointer;
+
 }
 
-p, #footer {
-  color:#7D7987;
+button:hover {
+  background: #40a17f;
+}
+
+footer {
   font-size: 14px;
   line-height: 28px;
+  text-align: center;
+
+  margin-top: 80px;
 }
-
-#footer {
-  margin-bottom: 33px;
-}
-
-#footer a + a{
-  margin-left: 28px;
-}
-
-.line {
-  width: 568px;
-  height: 0;
-
-  margin: 0 auto 8px;
-  
-  border: 1px solid #ECEFF2;
+footer a {
+  font-weight: bold;
 }
 
 #balls {
   position: fixed;
-  bottom: 0px;
+  bottom: 0;
   right: 0px;
 }

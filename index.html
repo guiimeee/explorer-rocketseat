@@ -1,72 +1,65 @@
-<!-- Instrução que define o tipo do documento. -->
 <!DOCTYPE html>
 <html lang="pt-br">
-  <!-- Tag <head> contém as instruções para a página -->
 <head>
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Móveis customizados</title>
-
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
 
-  
+  <title>Treine me</title>
 </head>
-
-<!-- Tag <body> é o corpo do documento, onde tem as informações que serão mostradas. -->
-
 <body>
-  
-  <div id="hero"> 
-    <!-- Tag <img/> usada para adicionar imagem -->
-    <img
-    src="imagens/image 1.jpg"
-    alt="desenho de uma pessoa em uma sala com móveis">
-    <!-- Tag <img src="imagens/valor"> usada para localizara imagem -->
-    <!-- Tag <img src="" alt="valor" usado para nomear a imagem-->
+
+  <div class="page">
     
-    <h1>
-      Ambientes <span>únicos</span> para você!
-    </h1>
-    <p>
-      Nós criamos ambientes <strong>exclusívos</strong> e <strong>únicos</strong>, 
-      com muito bom gosto e profissionalismo, 
-      investimos tempo e <span>dedicação no seu projeto</span>.
+      <nav>
+        <a id="logo" href="#">
+        <img src="images/logo.svg" alt="Treine.me"></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Treinar</a></li>
+        </ul>
+      </nav>
 
-      <br/>
-      <br/>
+    <main>
+      <section>
+        <h1>
+        Treinos <span>exclusivos</span>
+        para você!
+        </h1>
 
-    <!-- Tag <br/> para quebrar paragráfo, ou dar um espaço -->
+        <p>
+         Nós criamos treinos <strong>exclusivos e únicos para você</strong>.<br/>
+         Invista no seu corpo e <strong>tenha muito mais performance</strong>
+         e qualidade de vida.
+        </p>
 
-      Tenha <span>ambientes limpos</span> e bem decorados, 
-      transmitindo <strong>elegância</strong>  e <strong>finesse</strong> para todo 
-      aquele que estiver ali.
-    </p>
+        <button>
+        <img src="images/whats.svg" alt="whatsapp">
+        Comece já
+        </button>
+
+      </section>
+
+      <img src="images/img.png" alt="imagem de uma mulher pulando corda">
+    
+    </main>
+
+    <footer>
+        fale concosco no instagram <a href="#">@treine.me</a>
+    </footer>
+
+    <img id="balls" src="images/balls.svg" alt="imagem de bolinhas no canto inferior direito da tela">
+
   </div>
-  
-<!-- Tag target="_blank" utilizado para abrir nova aba após clicar no link -->
-  <div id="footer">
-    <div class="line"></div>
-    <a
-    target="_blank"
-    href="https://instagram.com/moveisparavoce">
-    instagram
-  </a>
-  <a
-  href="mailto:contato@moveisparavoce.com">
-  fale conosco
-</a>
-</div>
 
-
-<img id="balls"
-  src="imagens/balls.svg"
-  alt="bolinhas laranjadas no canto inferior direito da tela"/>
 
 </body>
 </html>
